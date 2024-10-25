@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="adminLogin">
+        <h2>Admin Login</h2>
+        <input type="password" id="adminPassword" placeholder="Enter Admin Password">
+        <button onclick="verifyAdmin()">Login</button>
+    </div>
+
+    <div id="adminContent" style="display: none;">
+        <h1>Admin Dashboard</h1>
+        <table id="dataTable">
+            <thead>
+                <tr>
+                    <th>IP Address</th>
+                    <th>Browser</th>
+                    <th>Date Accessed</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Data will be populated here -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="admin.js"></script>
+</body>
+</html>

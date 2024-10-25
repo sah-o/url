@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consent-Based Tracking Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="consentModal">
+        <h2>Consent Required</h2>
+        <p>This site collects information like IP address and browser type for analytics. Please agree to continue.</p>
+        <button id="agreeButton">I Agree</button>
+        <button id="declineButton">I Decline</button>
+    </div>
+
+    <div id="mainContent" style="display: none;">
+        <h1>Generate a Trackable URL</h1>
+        <form id="urlForm">
+            <label for="customUrl">Custom URL Name:</label>
+            <input type="text" id="customUrl" placeholder="e.g., my-link">
+            <button type="button" onclick="generateURL()">Generate URL</button>
+        </form>
+        <div id="generatedUrl"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "ip": "192.168.1.1",
+        "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36",
+        "date": "2024-10-25T12:30:00Z",
+        "custom_url": "my-custom-link"
+    },
+    {
+        "id": "2",
+        "ip": "192.168.1.2",
+        "browser": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15",
+        "date": "2024-10-25T14:20:00Z",
+        "custom_url": "another-link"
+    },
+    {
+        "id": "3",
+        "ip": "203.0.113.5",
+        "browser": "Mozilla/5.0 (Linux; Android 10; SM-G973F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.87 Mobile Safari/537.36",
+        "date": "2024-10-26T09:15:00Z",
+        "custom_url": "third-example"
+    }
+]
